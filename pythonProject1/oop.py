@@ -16,7 +16,7 @@ def read_from_file(file_name):
 
 
 
-if __name__ == '__main__': 
+if __name__ == '__main__':
     MY_FILE = "file.txt" #MY_FILE je constanta!!!
 
     user_input = input("Zadej zpravu:")
@@ -25,3 +25,4 @@ if __name__ == '__main__':
 
     data = read_from_file(MY_FILE)
     print(data)
+ # objekt ma polimorfismus, dedecnost, ....? vse auta umi jezdit = dedecnost
